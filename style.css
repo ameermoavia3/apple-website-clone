@@ -98,8 +98,10 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  background-size: contain;
-  background-image: url(_iphone_family__fuz5j2v5xx6y_medium.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./_iphone_family__fuz5j2v5xx6y_medium.jpg");
   font-size: x-large;
 }
 
