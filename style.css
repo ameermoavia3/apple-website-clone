@@ -1,0 +1,453 @@
+/* 🌐 RESET: Remove default margins/paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   🧭 NAVBAR STYLING SECTION
+   =============================== */
+.navbar {
+  position: fixed; /* keep navbar always visible */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🍎 Apple logo size and spacing */
+.navbar-brand img {
+  height: 30px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+/* 🔗 Navbar links layout */
+.navbar-nav {
+  gap: 25px;
+  align-items: center;
+}
+
+/* Default link appearance */
+.nav-link {
+  font-size: 15px;
+  color: black !important;
+  transition: color 0.3s;
+}
+
+/* Hover effect on navbar links */
+.nav-link:hover {
+  color: gray !important;
+  font-size: large !important;
+}
+
+/* Ensure logo + links stay aligned properly */
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 🖥️ Medium devices (992px–1115px) adjustments */
+@media (min-width: 992px) and (max-width: 1115px) {
+  .navbar-nav {
+    gap: 10px !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .navbar-brand img {
+    height: 28px;
+    margin-left: 5px;
+  }
+
+  .container-fluid {
+    padding: 0 20px;
+  }
+}
+
+/* 📱 Small screen (below 992px) styling */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: white;
+    padding: 10px 0;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .navbar-brand img {
+    margin-left: 10px;
+  }
+}
+
+/* ===============================
+   📱 SECTION 1 (iPhone section)
+   =============================== */
+#section1 {
+  padding-top: 70px;
+  display: flex;
+  justify-content: flex-start;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-size: contain;
+  background-image: url(_iphone_family__fuz5j2v5xx6y_medium.jpg);
+  font-size: x-large;
+}
+
+/* Hover effect for clickable feel */
+#section1:hover {
+  cursor: pointer;
+}
+
+/* 🔘 Blue button styling */
+.button1 {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgba(0, 113, 227);
+  color: white;
+  font-size: large;
+  margin-right: 10px;
+}
+
+/* ⚪ White outlined button styling */
+.button2 {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: white;
+  border: 2px solid rgba(0, 113, 227);
+  color: rgba(0, 113, 227);
+  font-size: medium;
+}
+
+/* Hover effect for button2 */
+.button2:hover {
+  background-color: rgba(0, 113, 227);
+  color: white;
+}
+
+/* ===============================
+   🎁 SECTION 3 (Mother’s Day)
+   =============================== */
+#section3 {
+  background-image: url(3.png);
+  padding-top: 600px;
+  display: flex;
+  justify-content: flex-start;
+  height: 900px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-size: contain;
+  font-size: x-large;
+}
+
+/* Section 3 button styling */
+#button3 {
+  border-radius: 50px;
+  font-size: medium;
+  padding: 10px 20px;
+  background-color: rgba(0, 113, 227);
+  color: white;
+  border: 2px solid rgba(0, 113, 227);
+}
+
+#button3:hover {
+  cursor: pointer;
+}
+
+/* ===============================
+   💻 SECTION 4 (MacBook Air)
+   =============================== */
+#section4 {
+  height: 790px;
+  width: 1400px;
+  display: flex;
+  background-image: url(hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  padding-top: 20px;
+  text-align: center;
+  font-size: xx-large;
+  gap: 10px;
+}
+
+#section4 h1 h3 {
+   text-align: center;
+}
+
+/* MacBook buttons */
+#button4 {
+  border-radius: 50px;
+  background-color: rgba(0, 113, 227);
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid rgba(0, 113, 227);
+}
+
+#button5 {
+  color: rgba(0, 113, 227);
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 2px solid rgba(0, 113, 227);
+}
+
+#button5:hover {
+    color: #fff;
+  background-color: rgba(0, 113, 227);
+  border-color: rgba(0, 113, 227);
+}
+
+/* ===============================
+   ⌚ SECTION 7–9 (Watch + Business)
+   =============================== */
+#Section7 {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+#Section8 {
+  height: 100%;
+  width: 60%;
+  background-image: url(promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-bottom: 430px;
+}
+
+/* Watch buttons */
+#button6, #button7 {
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 2px solid rgba(0, 113, 227);
+}
+
+#button6 {
+  background-color: rgba(0, 113, 227);
+  color: white;
+  margin-right: 10px;
+}
+
+#button6:hover {
+  cursor: pointer;
+}
+
+#button7:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 113, 227);
+}
+
+/* Watch logo inside section */
+#watch {
+  background-image: url(promo_logo_apple_watch_series_10__qk5vaa89vnm2_medium.png);
+  height: 100px;
+  width: 270px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Business section */
+#Section9 {
+  height: 100%;
+  width: 50%;
+  background-image: url(promo_asb__gajxkvbkiqie_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-bottom: 130px;
+  font-size: x-large;
+}
+
+.button8 {
+  border: 2px solid rgba(0, 113, 227);
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: rgba(0, 113, 227);
+  color: white;
+  margin-right: 10px;
+}
+
+/* ===============================
+   📏 RESPONSIVE MEDIA QUERIES
+   =============================== */
+
+/* 992px – 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+  #section1 {
+    height: 900px !important;
+    padding: 70px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+}
+
+/* 786px – 992px */
+@media (min-width: 786px) and (max-width: 992px) {
+  #section1,
+  #section3 {
+    padding: 70px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  #section1 {
+    height: 850px !important; /* ✅ Increase height for this range */
+  }
+
+  #section3 h1 {
+    margin-top: 600px !important;
+  }
+
+  #section4 {
+    padding-top: 70px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 800px;
+    width: 1000px;
+  }
+}
+
+/* 0px – 786px (Mobile screens) */
+@media (max-width: 786px) {
+  #section1 {
+    padding: 60px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  #section1 {
+    height: 800px !important; /* ✅ Full height on mobile too */
+  }
+
+  #section3 {
+     padding-top: 600px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  #section4 {
+    padding-top: 50px !important;
+    background-size: cover !important;
+    background-position:  center !important;
+    width: 800px;
+  }
+
+  #Section7 {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  #Section8 {
+    width: 100%;
+    height: 700px;
+    padding-bottom: 450px;
+    background-size: cover;
+  }
+
+  #Section9 {
+    width: 100%;
+    height: 700px;
+    padding-bottom: 50px;
+  }
+}
+
+
+
+
+@media (max-width: 576px) {
+  #section1 {
+    padding: 60px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  #section1 {
+    height: 800px !important; /* ✅ Full height on mobile too */
+  }
+
+  #section3 {
+     padding-top: 600px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  #section4 {
+    padding-top: 50px !important;
+    background-size: cover !important;
+    background-position:  center !important;
+    width: 100% !important;
+    height: 900px;
+  }
+
+  #Section7 {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    width: 400px;
+  }
+
+  #Section8 {
+    width: 100%;
+    height: 700px;
+    padding-bottom: 450px;
+    background-size: cover;
+  }
+
+  #Section9 {
+    width: 100%;
+    height: 700px;
+    padding-bottom: 50px;
+  }
+}
+
+
+
+
+.section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;          /* wrapper full */
+}
+
+#section4 {
+  width: 1400px;
+  max-width: 100%;
+  background-image: url(hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 790px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
