@@ -101,7 +101,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./_iphone_family__fuz5j2v5xx6y_medium.jpg");
+  background-image: url("images/_iphone_family__fuz5j2v5xx6y_medium.jpg");
   font-size: x-large;
 }
 
@@ -141,7 +141,7 @@
    🎁 SECTION 3 (Mother’s Day)
    =============================== */
 #section3 {
-  background-image: url(3.png);
+  background-image: url(images/3.png);
   padding-top: 600px;
   display: flex;
   justify-content: flex-start;
@@ -175,7 +175,7 @@
   height: 790px;
   width: 1400px;
   display: flex;
-  background-image: url(hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
+  background-image: url(images/promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -225,7 +225,7 @@
 #Section8 {
   height: 100%;
   width: 60%;
-  background-image: url(promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
+  background-image: url(images/promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -262,7 +262,7 @@
 
 /* Watch logo inside section */
 #watch {
-  background-image: url(promo_logo_apple_watch_series_10__qk5vaa89vnm2_medium.png);
+  background-image: url(images/promo_logo_apple_watch_series_10__qk5vaa89vnm2_medium.png);
   height: 100px;
   width: 270px;
   background-size: cover;
@@ -273,7 +273,7 @@
 #Section9 {
   height: 100%;
   width: 50%;
-  background-image: url(promo_asb__gajxkvbkiqie_medium.jpg);
+  background-image: url(images/promo_asb__gajxkvbkiqie_medium.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -441,7 +441,7 @@
 #section4 {
   width: 1400px;
   max-width: 100%;
-  background-image: url(hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
+  background-image: url(images/hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
   background-size: cover;
   background-position: center;
   height: 790px;
