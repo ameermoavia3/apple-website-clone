@@ -171,19 +171,24 @@
 /* ===============================
    💻 SECTION 4 (MacBook Air)
    =============================== */
-#section4 {
-  height: 790px;
-  width: 1400px;
+.section-wrapper {
   display: flex;
-  background-image: url(images/promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 100%;          /* wrapper full */
+}
+
+#section4 {
+  width: 1400px;
+  max-width: 100%;
+  background-image: url(images/hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
   background-size: cover;
-  padding-top: 20px;
+  background-position: center;
+  height: 790px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  font-size: xx-large;
-  gap: 10px;
 }
 
 #section4 h1 h3 {
